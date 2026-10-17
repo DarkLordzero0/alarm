@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "basealarm",
+  "version": "${version}",
+  "name": "Base Alarm",
+  "description": "Сигнализация: предупреждает, если другой игрок подошёл к вашей базе, и шлёт пинг в Discord.",
+  "environment": "client",
+  "entrypoints": { "client": [ "com.example.basealarm.BaseAlarmMod" ] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
